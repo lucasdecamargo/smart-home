@@ -165,5 +165,5 @@ void loop()
 
 ### Class UML
 
-![](D:\Biblioteca\Documents\Arduino\smart_home\weather_uml.svg)
+![UML](https://github.com/lucasdecamargo/smart-home/blob/main/WeatherClient/weather_uml.svg?raw=true)
 
