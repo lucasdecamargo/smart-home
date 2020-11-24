@@ -147,4 +147,4 @@ void loop()
 
 ### Class UML
 
-![](D:\Biblioteca\Documents\Arduino\smart_home\autowindow_uml.svg)
+![AutomatedWindowUML](https://github.com/lucasdecamargo/smart-home/edit/main/Broker/autowindow_uml.svg?raw=true)
