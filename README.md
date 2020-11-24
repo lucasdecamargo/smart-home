@@ -1,7 +1,7 @@
 # Smart Home
 
 Welcome to my smart home project using the microcontroller NodeMCU ESP8266!
-The main concept of this is that the broker runs on an ESP8266 as well as the services. Thanks to the one who has written the [uMQTTBroker](https://github.com/martin-ger/uMQTTBroker)! Check out his repository to see the limitations on running a broker on the ESP controller.
+This implementation is for demonstration purposes and its main concept is that the broker runs on an ESP8266 as well as the services, thanks to the one who has written the [uMQTTBroker](https://github.com/martin-ger/uMQTTBroker)! Check out his repository to see the limitations on running a broker on the ESP controller.
 
 In each subfolder you will find the broker and my so far implemented services. Descriptions are given in their directory.
 
