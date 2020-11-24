@@ -17,19 +17,19 @@ Besides the dependencies listed before in the root folder, we have:
 
 Written for using with a [Nema 17](https://www.stepper-motor.cn/product/hybridsteppermotor/nema17steppermotor.html) step motor and a [A4988](https://www.pololu.com/product/1182) driver. The connections are shown below, where the STEP pin is connected to D1 (GPIO 5) and DIR is connected to D2 (GPIO 4). Pins can however be changed in the configurations shown next. Here is an illustration of the electric circuit:
 
-<img src="D:\Biblioteca\Documents\Arduino\smart_home\circuit.png" style="zoom:55%;" />
+<img src="https://github.com/lucasdecamargo/smart-home/blob/main/SmartWindow/circuit.png?raw=true" style="zoom:55%;" />
 
 #### Using Limit Sensor
 
 In order to identify if the window is open or closed I implemented the use of limit sensor, that can be a switch for example. You may use two pull up switches like below.
 
-![](D:\Biblioteca\Documents\Arduino\smart_home\sensor.jpg)
+![Limit Sensor](https://github.com/lucasdecamargo/smart-home/blob/main/SmartWindow/sensor.jpg?raw=true)
 
 #### The Actuator
 
 The actuator consists on a linear guide built with the step motor, a belt and pulleys. The model is shown below. Two parameters are important for the configuration: **linear length and pulley radius**. They both can be set via the MQTT API presented next. The window is supposed to move as the belt runs along the linear guide. A point to point connection can then be made by using some sort of line for example. Note this is by far not the best design but it was easy to build and it serves pretty enough for a demonstrator.
 
-<img src="D:\Biblioteca\Documents\Arduino\smart_home\actuator.png" style="zoom:60%;" />
+<img src="https://github.com/lucasdecamargo/smart-home/blob/main/SmartWindow/actuator.png?raw=true" style="zoom:60%;" />
 
 ### Usage
 
@@ -49,7 +49,7 @@ User Wi-Fi and MQTT configurations are defined in file `definitions.h`. There yo
 
  The base actuator API is defined by the UML below:
 
-![](D:\Biblioteca\Documents\Arduino\smart_home\uml.png)
+![UML](https://github.com/lucasdecamargo/smart-home/blob/main/SmartWindow/uml.png?raw=true)
 
 ## MQTT API
 
