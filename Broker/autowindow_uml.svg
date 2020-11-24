@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="706px" preserveAspectRatio="none" style="width:406px;height:706px;" version="1.1" viewBox="0 0 406 706" width="406px" zoomAndPan="magnify"><defs><filter height="300%" id="f121ydyygdft24" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[e7c080ba914bc2e9a4ee4cd62c22af2c]
+class AutomatedWindow--><rect codeLine="8" fill="#FEFECE" filter="url(#f121ydyygdft24)" height="504.5859" id="AutomatedWindow" style="stroke: #A80036; stroke-width: 1.5;" width="383" x="9" y="10"/><ellipse cx="79.25" cy="26" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M82.0156,21.875 Q82.1719,21.6563 82.3594,21.5469 Q82.5469,21.4375 82.7656,21.4375 Q83.1406,21.4375 83.375,21.6953 Q83.6094,21.9531 83.6094,22.5625 L83.6094,24.0156 Q83.6094,24.625 83.375,24.8906 Q83.1406,25.1563 82.7656,25.1563 Q82.4219,25.1563 82.2188,24.9531 Q82.0156,24.7656 81.9063,24.25 Q81.8594,23.8906 81.6719,23.7031 Q81.3438,23.3281 80.7344,23.1094 Q80.125,22.8906 79.5,22.8906 Q78.7344,22.8906 78.1016,23.2188 Q77.4688,23.5469 76.9766,24.2969 Q76.4844,25.0469 76.4844,26.0781 L76.4844,27.1719 Q76.4844,28.4063 77.375,29.2266 Q78.2656,30.0469 79.8594,30.0469 Q80.7969,30.0469 81.4531,29.7969 Q81.8438,29.6406 82.2656,29.2031 Q82.5313,28.9375 82.6797,28.8594 Q82.8281,28.7813 83.0313,28.7813 Q83.3594,28.7813 83.6172,29.0391 Q83.875,29.2969 83.875,29.6406 Q83.875,29.9844 83.5313,30.3906 Q83.0313,30.9688 82.2344,31.2969 Q81.1563,31.75 79.8594,31.75 Q78.3438,31.75 77.1406,31.125 Q76.1563,30.625 75.4688,29.5547 Q74.7813,28.4844 74.7813,27.2031 L74.7813,26.0469 Q74.7813,24.7188 75.3984,23.5703 Q76.0156,22.4219 77.1094,21.8047 Q78.2031,21.1875 79.4375,21.1875 Q80.1719,21.1875 80.8203,21.3516 Q81.4688,21.5156 82.0156,21.875 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="103" x="99.75" y="30.9102">AutomatedWindow</text><rect fill="#FFFFFF" height="17.0938" style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" width="129" x="266" y="7"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="127" x="267" y="20.457">template&lt;typename T&gt;</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="10" x2="391" y1="42" y2="42"/><polygon fill="none" points="20,48,24,52,20,56,16,52" style="stroke: #B38D22; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="57" x="29" y="57.4189">_err : String</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="17" y="63.8359"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="89" x="29" y="71.2549">_mqttTopic : String</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="17" y="77.6719"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="110" x="29" y="85.0908">_weatherTopic : String</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="17" y="91.5078"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="109" x="29" y="98.9268">_windowTopic : String</text><polygon fill="none" points="20,103.3438,24,107.3438,20,111.3438,16,107.3438" style="stroke: #B38D22; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="71" x="29" y="112.7627">_mqttClient : T*</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="17" y="119.1797"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="64" x="29" y="126.5986">_active : bool</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="17" y="133.0156"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="82" x="29" y="140.4346">_eepromAdd : int</text><ellipse cx="20" cy="149.8516" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="127" x="29" y="154.2705">WID_MAX : static const int</text><ellipse cx="20" cy="163.6875" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="121" x="29" y="168.1064">WID_MIN : static const int</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="17" y="174.5234"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="121" x="29" y="181.9424">_wlcond : wlconditions_t</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="10" x2="391" y1="188.3594" y2="188.3594"/><ellipse cx="20" cy="199.3594" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="242" x="29" y="203.7783">AutomatedWindow(T* mqttClient, String mqttTopic)</text><ellipse cx="20" cy="213.1953" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="59" x="29" y="217.6143">err() : String</text><ellipse cx="20" cy="227.0313" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="106" x="29" y="231.4502">getMqttTopic() : String</text><ellipse cx="20" cy="240.8672" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="127" x="29" y="245.2861">getWeatherTopic() : String</text><ellipse cx="20" cy="254.7031" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="66" x="29" y="259.1221">active() : bool</text><ellipse cx="20" cy="268.5391" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="357" x="29" y="272.958">callback(const char* topic, const char* payload, unsigned int length) : bool</text><ellipse cx="20" cy="282.375" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="205" x="29" y="286.7939">callback(String topic, String payload) : bool</text><ellipse cx="20" cy="296.2109" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="118" x="29" y="300.6299">decide(String wpl) : bool</text><ellipse cx="20" cy="310.0469" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="141" x="29" y="314.4658">load(int const address) : bool</text><ellipse cx="20" cy="323.8828" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="57" x="29" y="328.3018">load() : bool</text><ellipse cx="20" cy="337.7188" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="89" x="29" y="342.1377">resubcribe() : bool</text><ellipse cx="20" cy="351.5547" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="145" x="29" y="355.9736">save(int const address) : bool</text><ellipse cx="20" cy="365.3906" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="61" x="29" y="369.8096">save() : bool</text><ellipse cx="20" cy="379.2266" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="114" x="29" y="383.6455">subscribe(bool a) : bool</text><ellipse cx="20" cy="393.0625" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="126" x="29" y="397.4814">unsubscribe(bool a) : bool</text><ellipse cx="20" cy="406.8984" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="126" x="29" y="411.3174">getEEPROMAddress() : int</text><ellipse cx="20" cy="420.7344" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="75" x="29" y="425.1533">activate() : void</text><ellipse cx="20" cy="434.5703" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="87" x="29" y="438.9893">deactivate() : void</text><ellipse cx="20" cy="448.4063" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="206" x="29" y="452.8252">setConditions(wlconditions_t&amp; cond) : void</text><ellipse cx="20" cy="462.2422" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="167" x="29" y="466.6611">setEEPROMAddress(int add) : void</text><ellipse cx="20" cy="476.0781" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="152" x="29" y="480.4971">setMqttTopic(String topic) : void</text><ellipse cx="20" cy="489.9141" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="173" x="29" y="494.333">setWeatherTopic(String topic) : void</text><ellipse cx="20" cy="503.75" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="152" x="29" y="508.1689">getConditions() : wlconditions_t</text><!--MD5=[acc3e95765537fad69af5c8c61e75929]
+class config_t--><rect codeLine="46" fill="#FEFECE" filter="url(#f121ydyygdft24)" height="89.5078" id="config_t" style="stroke: #A80036; stroke-width: 1.5;" width="124" x="62.5" y="588.5"/><ellipse cx="99.55" cy="604.5" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M102.3156,600.375 Q102.4719,600.1563 102.6594,600.0469 Q102.8469,599.9375 103.0656,599.9375 Q103.4406,599.9375 103.675,600.1953 Q103.9094,600.4531 103.9094,601.0625 L103.9094,602.5156 Q103.9094,603.125 103.675,603.3906 Q103.4406,603.6563 103.0656,603.6563 Q102.7219,603.6563 102.5188,603.4531 Q102.3156,603.2656 102.2063,602.75 Q102.1594,602.3906 101.9719,602.2031 Q101.6438,601.8281 101.0344,601.6094 Q100.425,601.3906 99.8,601.3906 Q99.0344,601.3906 98.4016,601.7188 Q97.7688,602.0469 97.2766,602.7969 Q96.7844,603.5469 96.7844,604.5781 L96.7844,605.6719 Q96.7844,606.9063 97.675,607.7266 Q98.5656,608.5469 100.1594,608.5469 Q101.0969,608.5469 101.7531,608.2969 Q102.1438,608.1406 102.5656,607.7031 Q102.8313,607.4375 102.9797,607.3594 Q103.1281,607.2813 103.3313,607.2813 Q103.6594,607.2813 103.9172,607.5391 Q104.175,607.7969 104.175,608.1406 Q104.175,608.4844 103.8313,608.8906 Q103.3313,609.4688 102.5344,609.7969 Q101.4563,610.25 100.1594,610.25 Q98.6438,610.25 97.4406,609.625 Q96.4563,609.125 95.7688,608.0547 Q95.0813,606.9844 95.0813,605.7031 L95.0813,604.5469 Q95.0813,603.2188 95.6984,602.0703 Q96.3156,600.9219 97.4094,600.3047 Q98.5031,599.6875 99.7375,599.6875 Q100.4719,599.6875 101.1203,599.8516 Q101.7688,600.0156 102.3156,600.375 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="43" x="118.45" y="609.4102">config_t</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="63.5" x2="185.5" y1="620.5" y2="620.5"/><ellipse cx="73.5" cy="631.5" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="58" x="82.5" y="635.9189">active : bool</text><ellipse cx="73.5" cy="645.3359" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="77" x="82.5" y="649.7549">mqttTopic : char</text><ellipse cx="73.5" cy="659.1719" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="98" x="82.5" y="663.5908">weatherTopic : char</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="63.5" x2="185.5" y1="670.0078" y2="670.0078"/><!--MD5=[c7676d70437efb43fbf4cda773279258]
+class wlconditions_t--><rect codeLine="52" fill="#FEFECE" filter="url(#f121ydyygdft24)" height="117.1797" id="wlconditions_t" style="stroke: #A80036; stroke-width: 1.5;" width="111" x="222" y="575"/><ellipse cx="237" cy="591" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M239.7656,586.875 Q239.9219,586.6563 240.1094,586.5469 Q240.2969,586.4375 240.5156,586.4375 Q240.8906,586.4375 241.125,586.6953 Q241.3594,586.9531 241.3594,587.5625 L241.3594,589.0156 Q241.3594,589.625 241.125,589.8906 Q240.8906,590.1563 240.5156,590.1563 Q240.1719,590.1563 239.9688,589.9531 Q239.7656,589.7656 239.6563,589.25 Q239.6094,588.8906 239.4219,588.7031 Q239.0938,588.3281 238.4844,588.1094 Q237.875,587.8906 237.25,587.8906 Q236.4844,587.8906 235.8516,588.2188 Q235.2188,588.5469 234.7266,589.2969 Q234.2344,590.0469 234.2344,591.0781 L234.2344,592.1719 Q234.2344,593.4063 235.125,594.2266 Q236.0156,595.0469 237.6094,595.0469 Q238.5469,595.0469 239.2031,594.7969 Q239.5938,594.6406 240.0156,594.2031 Q240.2813,593.9375 240.4297,593.8594 Q240.5781,593.7813 240.7813,593.7813 Q241.1094,593.7813 241.3672,594.0391 Q241.625,594.2969 241.625,594.6406 Q241.625,594.9844 241.2813,595.3906 Q240.7813,595.9688 239.9844,596.2969 Q238.9063,596.75 237.6094,596.75 Q236.0938,596.75 234.8906,596.125 Q233.9063,595.625 233.2188,594.5547 Q232.5313,593.4844 232.5313,592.2031 L232.5313,591.0469 Q232.5313,589.7188 233.1484,588.5703 Q233.7656,587.4219 234.8594,586.8047 Q235.9531,586.1875 237.1875,586.1875 Q237.9219,586.1875 238.5703,586.3516 Q239.2188,586.5156 239.7656,586.875 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="79" x="251" y="595.9102">wlconditions_t</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="223" x2="332" y1="607" y2="607"/><ellipse cx="233" cy="618" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="47" x="242" y="622.4189">wid: int[2]</text><ellipse cx="233" cy="631.8359" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="52" x="242" y="636.2549">temp: int[2]</text><ellipse cx="233" cy="645.6719" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="54" x="242" y="650.0908">wind : float</text><ellipse cx="233" cy="659.5078" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="59" x="242" y="663.9268">humidity : int</text><ellipse cx="233" cy="673.3438" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="82" x="242" y="677.7627">forecast : uint8_t</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="223" x2="332" y1="684.1797" y2="684.1797"/><!--MD5=[183cb1178b54d3787027267d3952622a]
+reverse link AutomatedWindow to wlconditions_t--><path codeLine="71" d="M255.77,528.37 C259.3,545.28 262.59,561.06 265.5,574.98 " fill="none" id="AutomatedWindow-backto-wlconditions_t" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="253.03,515.24,250.3333,521.9279,255.4696,526.9894,258.1662,520.3015,253.03,515.24" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[e39f6e1e8fe085d77eae3cccba6642c6]
+reverse link AutomatedWindow to config_t--><path codeLine="72" d="M146.01,528.05 C141.34,550.76 137.07,571.45 133.6,588.33 " fill="none" id="AutomatedWindow-backto-config_t" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="148.65,515.24,143.5203,520.3082,146.2257,526.9926,151.3554,521.9244,148.65,515.24" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[7f4628fa2c2cdbcc55018d06143c4b52]
+@startuml AutomatedWindow
+
+
+
+
+
+/' Objects '/
+
+class AutomatedWindow <template<typename T>> {
+	+AutomatedWindow(T* mqttClient, String mqttTopic)
+	#_err : String
+	-_mqttTopic : String
+	-_weatherTopic : String
+	-_windowTopic : String
+	+err() : String
+	+getMqttTopic() : String
+	+getWeatherTopic() : String
+	#_mqttClient : T*
+	-_active : bool
+	+active() : bool
+	+callback(const char* topic, const char* payload, unsigned int length) : bool
+	+callback(String topic, String payload) : bool
+	+decide(String wpl) : bool
+	+load(int const address) : bool
+	+load() : bool
+	+resubcribe() : bool
+	+save(int const address) : bool
+	+save() : bool
+	+subscribe(bool a) : bool
+	+unsubscribe(bool a) : bool
+	-_eepromAdd : int
+	+getEEPROMAddress() : int
+	+{static} WID_MAX : static const int
+	+{static} WID_MIN : static const int
+	+activate() : void
+	+deactivate() : void
+	+setConditions(wlconditions_t& cond) : void
+	+setEEPROMAddress(int add) : void
+	+setMqttTopic(String topic) : void
+	+setWeatherTopic(String topic) : void
+	-_wlcond : wlconditions_t
+	+getConditions() : wlconditions_t
+}
+
+
+
+class config_t {
+	+active : bool
+	+mqttTopic : char
+	+weatherTopic : char
+}
+
+class wlconditions_t {
+	+wid: int[2]
+	+temp: int[2]
+	+wind : float
+	+humidity : int
+	+forecast : uint8_t
+}
+
+
+
+
+
+/' Inheritance relationships '/
+
+
+
+
+/' Aggregation relationships '/
+
+.AutomatedWindow *- - wlconditions_t
+.AutomatedWindow *- - config_t
+
+
+
+
+
+@enduml
+
+@startuml AutomatedWindow
+
+
+
+
+
+
+class AutomatedWindow <template<typename T>> {
+	+AutomatedWindow(T* mqttClient, String mqttTopic)
+	#_err : String
+	-_mqttTopic : String
+	-_weatherTopic : String
+	-_windowTopic : String
+	+err() : String
+	+getMqttTopic() : String
+	+getWeatherTopic() : String
+	#_mqttClient : T*
+	-_active : bool
+	+active() : bool
+	+callback(const char* topic, const char* payload, unsigned int length) : bool
+	+callback(String topic, String payload) : bool
+	+decide(String wpl) : bool
+	+load(int const address) : bool
+	+load() : bool
+	+resubcribe() : bool
+	+save(int const address) : bool
+	+save() : bool
+	+subscribe(bool a) : bool
+	+unsubscribe(bool a) : bool
+	-_eepromAdd : int
+	+getEEPROMAddress() : int
+	+{static} WID_MAX : static const int
+	+{static} WID_MIN : static const int
+	+activate() : void
+	+deactivate() : void
+	+setConditions(wlconditions_t& cond) : void
+	+setEEPROMAddress(int add) : void
+	+setMqttTopic(String topic) : void
+	+setWeatherTopic(String topic) : void
+	-_wlcond : wlconditions_t
+	+getConditions() : wlconditions_t
+}
+
+
+
+class config_t {
+	+active : bool
+	+mqttTopic : char
+	+weatherTopic : char
+}
+
+class wlconditions_t {
+	+wid: int[2]
+	+temp: int[2]
+	+wind : float
+	+humidity : int
+	+forecast : uint8_t
+}
+
+
+
+
+
+
+
+
+
+
+.AutomatedWindow *- - wlconditions_t
+.AutomatedWindow *- - config_t
+
+
+
+
+
+@enduml
+
+PlantUML version 1.2020.18(Wed Sep 30 16:40:44 BRT 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: BR
+--></g></svg>

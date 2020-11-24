@@ -1,0 +1,37 @@
+{
+	"weather":
+	[
+		{
+			"id": 100,
+			"main": "Cloudy",
+			"description": "Pigs are falling from sky! They might want to rule this world...",
+			"temp": 23.33,
+			"feels_like": 25.66,
+			"humidity": 50,
+			"wind": 0.21,
+			"dt": 1603167280
+		},
+
+		{
+			"id": 200,
+			"main": "Raining",
+			"description": "It will rain cows!",
+			"temp": 33.33,
+			"feels_like": 45.66,
+			"humidity": 50,
+			"wind": 0.21,
+			"dt": 1603168000
+		},
+
+		{
+			"id": 100,
+			"main": "Cloudy",
+			"description": "Alies will be seen on sky!",
+			"temp": 23.33,
+			"feels_like": 25.66,
+			"humidity": 50,
+			"wind": 0.21,
+			"dt": 1603169000
+		}
+	]
+}

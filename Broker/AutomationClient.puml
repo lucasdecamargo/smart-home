@@ -1,0 +1,79 @@
+@startuml AutomatedWindow
+
+
+
+
+
+/' Objects '/
+
+class AutomatedWindow <template<typename T>> {
+	+AutomatedWindow(T* mqttClient, String mqttTopic)
+	#_err : String
+	-_mqttTopic : String
+	-_weatherTopic : String
+	-_windowTopic : String
+	+err() : String
+	+getMqttTopic() : String
+	+getWeatherTopic() : String
+	#_mqttClient : T*
+	-_active : bool
+	+active() : bool
+	+callback(const char* topic, const char* payload, unsigned int length) : bool
+	+callback(String topic, String payload) : bool
+	+decide(String wpl) : bool
+	+load(int const address) : bool
+	+load() : bool
+	+resubcribe() : bool
+	+save(int const address) : bool
+	+save() : bool
+	+subscribe(bool a) : bool
+	+unsubscribe(bool a) : bool
+	-_eepromAdd : int
+	+getEEPROMAddress() : int
+	+{static} WID_MAX : static const int
+	+{static} WID_MIN : static const int
+	+activate() : void
+	+deactivate() : void
+	+setConditions(wlconditions_t& cond) : void
+	+setEEPROMAddress(int add) : void
+	+setMqttTopic(String topic) : void
+	+setWeatherTopic(String topic) : void
+	-_wlcond : wlconditions_t
+	+getConditions() : wlconditions_t
+}
+
+
+
+class config_t {
+	+active : bool
+	+mqttTopic : char
+	+weatherTopic : char
+}
+
+class wlconditions_t {
+	+wid: int[2]
+	+temp: int[2]
+	+wind : float
+	+humidity : int
+	+forecast : uint8_t
+}
+
+
+
+
+
+/' Inheritance relationships '/
+
+
+
+
+/' Aggregation relationships '/
+
+.AutomatedWindow *-- wlconditions_t
+.AutomatedWindow *-- config_t
+
+
+
+
+
+@enduml

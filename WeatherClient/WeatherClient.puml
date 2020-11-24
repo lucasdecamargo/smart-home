@@ -1,0 +1,86 @@
+@startuml WeatherClient
+
+/' Objects '/
+
+class Weather {
+	+Weather(String apiKey, WiFiClient* wifiClient)
+	-_apiKey : String
+	#_err : String
+	+err() : String
+	+get(String city, unsigned npredictions) : String
+	+getApiKey() : String
+	-_wifiClient : WiFiClient*
+	#httpJsonRequest(const String url, String& output) : bool
+	-_server : const char*
+	+setApiKey(String apiKey) : void
+}
+
+
+class WeatherMQTT <template<typename T>> {
+	+WeatherMQTT(String apiKey, WiFiClient* wifiClient, T* mqttClient, String mqttTopic)
+	-_city : String
+	-_mqttTopic : String
+	+getCity() : String
+	+getMqttTopic() : String
+	-_mqttClient : T*
+	-_wifiClient : WiFiClient*
+	+callback(String topic, String payload) : bool
+	+callback(char* topic, byte* payload, unsigned int length) : bool
+	+load(int const address) : bool
+	+load() : bool
+	+resubscribe() : bool
+	+run() : bool
+	+subscribe() : bool
+	+unsubscribe() : bool
+	-_buffSizeInc : const uint16_t
+	-_minMqttBuff : const uint16_t
+	-_eepromAdd : int
+	+getEEPROMAddress() : int
+	+save(int const address) : int
+	+save() : int
+	+minBufferSize() : uint16_t
+	-_npredictions : unsigned
+	+getnPredictions() : unsigned
+	-_lastConnectionTime : unsigned long
+	-_period : unsigned long
+	+getPeriod() : unsigned long
+	+setCity(String city) : void
+	+setEEPROMAddress(int add) : void
+	+setMqttTopic(String topic) : void
+	+setPeriod(unsigned long period) : void
+	+setnPredictions(unsigned val) : void
+}
+
+
+' namespace WeatherMQTT {
+' 	class args_t {
+' 		+apiKey : char
+' 		+city : char
+' 		+mqttTopic : char
+' 		+npredictions : unsigned
+' 		+lastConnectionTime : unsigned long
+' 		+period : unsigned long
+' 	}
+' }
+
+
+
+
+
+/' Inheritance relationships '/
+
+.Weather <|-- .WeatherMQTT
+
+show WeatherMQTT members
+show <<Serializable>> fields
+
+
+
+
+
+/' Aggregation relationships '/
+
+
+
+
+@enduml
