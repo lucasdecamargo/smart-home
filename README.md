@@ -19,3 +19,7 @@ Make sure to install the following Arduino libraries:
 * [PubSubClient](https://github.com/knolleary/pubsubclient) (except for the broker)
 * [ArduinoJson](https://arduinojson.org/)
 
+### MQTT Dashboard
+Download [this app from Google Play](https://play.google.com/store/apps/details?id=com.app.vetru.mqttdashboard) and enjoy the free MQTT interface! In this folder you can find my JSON configurations for the app and you can even import it to yours. Find out more downloading the app.
+
+![MQTT Dashboard](https://github.com/lucasdecamargo/smart-home/blob/main/mqttdash.jpg?raw=true)
