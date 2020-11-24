@@ -147,4 +147,4 @@ void loop()
 
 ### Class UML
 
-![AutomatedWindowUML](https://github.com/lucasdecamargo/smart-home/edit/main/Broker/autowindow_uml.svg?raw=true)
+![AutomatedWindowUML](https://github.com/lucasdecamargo/smart-home/blob/main/Broker/autowindow_uml.svg?raw=true)
