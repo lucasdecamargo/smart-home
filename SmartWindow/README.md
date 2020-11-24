@@ -27,7 +27,7 @@ In order to identify if the window is open or closed I implemented the use of li
 
 #### The Actuator
 
-The actuator consists on a linear guide built with the step motor, a belt and pulleys. The model is shown below. Two parameters are important for the configuration: **linear length and pulley radius**. They both can be set via the MQTT API presented next. The window is supposed to move as the belt runs along the linear guide. A point to point connection can then be made by using some sort of line for example. Note this is by far not the best design but it was easy to build and it serves pretty enough for a demonstrator.
+The actuator consists on a linear guide built with the step motor, a belt and pulleys. The model is shown below. Two parameters are important for the configuration: **linear length and pulley radius**. They both can be set via the MQTT API presented next. The window is supposed to move as the belt runs along the linear guide. A point to point connection can then be made by using some sort of line for example. Note this is by far not the best design but it was easy to build and it fits pretty enough for a demonstrator.
 
 <img src="https://github.com/lucasdecamargo/smart-home/blob/main/SmartWindow/actuator.png?raw=true" style="zoom:60%;" />
 
