@@ -5,7 +5,8 @@ This implementation is for demonstration purposes and its main concept is that t
 
 In each subfolder you will find the broker and my so far implemented services. Descriptions are given in their directory.
 
-check out the results on YouTube!
+
+Have a look at the PowerPoint presentation I prepared and check out the results on YouTube!
 https://youtu.be/L8XZHv6YP_w
 
 ### Common Dependencies
